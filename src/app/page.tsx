@@ -119,7 +119,7 @@ export default function ChatInterface() {
         headers['Authorization'] = `Bearer ${token}`;
       }
 
-      const response = await fetch('http://38.49.209.149:8003/api/chat', {
+      const response = await fetch('https://00a0-38-49-209-149.ngrok-free.app/api/chat', {
         method: 'POST',
         headers,
         body: JSON.stringify({ 
